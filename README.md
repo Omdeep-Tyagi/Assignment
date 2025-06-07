@@ -73,7 +73,6 @@ POST /api/v1/auth/register
 ```
 - Register a new user/admin
 
----
 
 
 ### 5. Login User/Admin
