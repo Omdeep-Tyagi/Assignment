@@ -17,8 +17,8 @@ A RESTful API backend for a Chapter Performance Dashboard, built as a sample tas
 
 ## Deployment Link (EC2)
 
-- The API is deployed at: [LIVE LINK]  
-  _[[Insert your deployed API link here](https://65.2.100.108.nip.io)]_
+- The API is deployed at: https://65.2.100.108.nip.io
+  
 
 ---
 
@@ -44,12 +44,16 @@ GET /api/v1/chapters
 - **Pagination:** `page` & `limit` query params
 - **Response:** Returns filtered, paginated list and the total number of chapters
 
+
+
 ### 2. Get Chapter by ID
 
 ```
 GET /api/v1/chapters/:id
 ```
 - Returns the details of a specific chapter by its ID
+
+
 
 ### 3. Upload Chapters (Admin Only)
 
@@ -60,19 +64,19 @@ POST /api/v1/chapters
 - **Validation:** Only valid chapters are uploaded; invalid ones are reported in response
 - **Access:** Restricted to admin users
 
----
+
 
 ### 4. Register User/Admin
 
 ```
 POST /api/v1/auth/register
 ```
-- Register a new user/admin o=
+- Register a new user/admin
 
 ---
 
 
-### 4. Login User/Admin
+### 5. Login User/Admin
 
 ```
 POST /api/v1/auth/login
@@ -128,8 +132,7 @@ POST /api/v1/auth/login
 
 ## Postman Collection
 
-- [Postman Collection Link]  
-  _[[Insert your Postman public collection link here](https://documenter.getpostman.com/view/39098392/2sB2x2LvAD)]_
+- https://documenter.getpostman.com/view/39098392/2sB2x2LvAD
 
 ---
 
